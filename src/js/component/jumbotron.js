@@ -3,7 +3,7 @@ import React from "react";
 export function Jumbotron(props) {
 	return (
 		<div className="jumbotron text-justify">
-			<h1 className="display-4">{props.title}</h1>
+			{/* <h1 className="display-4">{props.title}</h1> */}
 			<p className="lead">
 				Contrary to popular belief, Lorem Ipsum is not simply random
 				text. It has roots in a piece of classical Latin literature from

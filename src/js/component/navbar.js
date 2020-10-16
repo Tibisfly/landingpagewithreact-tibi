@@ -8,27 +8,27 @@ export let Navbar = function() {
 			</a>
 
 			<div
-				class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight"
+				className="collapse navbar-collapse d-flex flex-row-reverse bd-highlight"
 				id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">
+				<ul className="navbar-nav">
+					<li className="nav-item active">
+						<a className="nav-link" href="#">
 							Home
-							<span class="sr-only">(current)</span>
+							<span className="sr-only">(current)</span>
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
+					<li className="nav-item">
+						<a className="nav-link" href="#">
 							About
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
+					<li className="nav-item">
+						<a className="nav-link" href="#">
 							Services
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
+					<li className="nav-item">
+						<a className="nav-link" href="#">
 							Contact
 						</a>
 					</li>
