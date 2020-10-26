@@ -50,3 +50,10 @@ export function Home(props) {
 		</div>
 	);
 }
+
+
+// Dudas: 
+// 1. Por qué me da "Failed to compile", ya revisé la consola y no veo nada.
+// 2. Por qué las cards al no estar dentro del scroll se ven como si no estuviesen dentro del contenedor principal de toda la página. Tuve que meterlas en el scroll y colocarles un montón de estilos para lograr esto, sin embargo no estoy satisfecha, están de diferentes tamaños y cuando están como si estuviesen en un móvil se ven pegadas y un poco frames.
+// 3. Por qué el navbar se ve tan ancho al hacerlo más pequeño, tendrá que ver con la clase del navbar xl? 
+// 4. Me costó demasiado cómo colocar background image del Jumbotron, por qué se ve un poco elongado si estamos en móviles y cómo colocar una imagen sin tanto problema? Cómo colocar el jumbotron más grande sin perder lo responsive que nos da Bootstrap? 
