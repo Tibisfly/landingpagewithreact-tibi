@@ -11,6 +11,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: #F1E6F1;
+}
+.navbar{
+    background-color: #F0F2F9;
+}
 .card{
     width: 18rem;
+    max-width: 540px; 
+    min-width: 500px;
+    background-color: #F0F0F6;
+}
+
+.jumbotron{
+    background-image: url("https://lh3.googleusercontent.com/proxy/QpGqAhBIX7qHVxZCa4BrQKNVI7skp74QN2ObqTGpyxwPfB2OgehZXykYM3gLaK2nkot7EcPGmW2ByBwe6sHNwHelYBR8iH79-foTTENJOe63d-x5Ht-xbvGPUQDT8bGG0HCSogD4UNDbclI6Fz0NOSjiwYmNVw");
+    background-attachment: static;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-style: oblique;
+    
+}
+.contenedor{
+    overflow: scroll;
+}
+footer{
+    color: gray;
 }

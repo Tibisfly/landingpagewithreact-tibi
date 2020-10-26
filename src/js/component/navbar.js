@@ -2,8 +2,8 @@ import React from "react";
 
 export let Navbar = function() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-			<a className="navbar-brand" href="#">
+		<nav className="navbar navbar-expand-lg navbar-light">
+			<a className="navbar-brand" href="https://getbootstrap.com/">
 				Start Bootstrap
 			</a>
 

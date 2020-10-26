@@ -1,41 +1,45 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export function Card(props) {
 	return (
-		<div className="wrapperCard">
-			<div className="card">
-				<img src="www" className="card-img-top" alt="..." />
-				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p clasclassNames="card-text">Some text</p>
-					<a href="#" className="btn btn-primary">
-						Find out more!
-					</a>
+		<div className="container-fluid">
+			<div className="row">
+				<div className="col-3">
+					<div className="wrapperCard">
+						<div className="card">
+							<img
+								src={props.urlImg}
+								className="card-img-top"
+								alt="..."
+							/>
+							<div className="card-body">
+								<h5 className="card-title text-center">
+									<i>
+										<strong>{props.title}</strong>
+									</i>
+								</h5>
+								<p clasclassNames="card-text">
+									{props.textCard}
+								</p>
+								<a
+									target="_blank"
+									href={props.buttonCard}
+									className="btn btn-outline-secondary">
+									Lets check it out together!
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	);
 }
 
-// let myCardsArray = [
-// 	{
-// 		src:
-// 			"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7lWHi3VMn5X78uJH5FMqKrnyQ7Fb8vLKt2w&usqp=CAU",
-// 		text: "Prueba 1"
-// 	},
-// 	{
-// 		src:
-// 			"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzvIUbKcfOv5WH1RLxcq_Z9FPE38h0pXjEgw&usqp=CAU",
-// 		text: "Prueba 1"
-// 	},
-// 	{
-// 		src:
-// 			"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7Vh0jU3tQOo0t9_BEAfS_ztfN4-RsyXj-_g&usqp=CAU",
-// 		text: "Prueba 1"
-// 	},
-// 	{
-// 		src:
-// 			"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDwgWJoRxJOdrMhD_rJRGgTow3uvE3ZryOTA&usqp=CAU",
-// 		text: "Prueba 1"
-// 	}
-// ];
+Card.propTypes = {
+	urlImg: PropTypes.string,
+	title: PropTypes.string,
+	textCard: PropTypes.string,
+	buttonCard: PropTypes.string
+};
