@@ -8,12 +8,12 @@ export function Jumbotron(props) {
 				<h1 className="display-4">{props.title}</h1>
 				<p className="lead">
 					When your mind and heart are truly open abundance will flow
-					to you effortlessly and easily. Click "Call to action" for
+					to you effortlessly and easily. Click Call to action for
 					know a bit more of this 21st century disease
 				</p>
 				<a
 					className="btn btn-light btn-lg"
-					target="_blank"
+					rel="noopener noreferrer"
 					href={props.urlJumbutton}
 					role="button">
 					Call to action!

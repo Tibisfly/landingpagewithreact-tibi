@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Link from "react-router-dom";
 
 export function Card(props) {
 	return (
@@ -19,15 +20,16 @@ export function Card(props) {
 										<strong>{props.title}</strong>
 									</i>
 								</h5>
-								<p clasclassNames="card-text">
-									{props.textCard}
-								</p>
-								<a
-									target="_blank"
-									href={props.buttonCard}
+								<p className="card-text">{props.textCard}</p>
+								{/* <Link
+									to=
+									type="button"
 									className="btn btn-outline-secondary">
 									Lets check it out together!
-								</a>
+								</Link> */}
+								{/* <Link to={props.buttonCard}>
+									<span>Lets check it out together!</span>
+								</Link> */}
 							</div>
 						</div>
 					</div>
