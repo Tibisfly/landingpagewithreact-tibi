@@ -27,13 +27,7 @@ export function Card(props) {
 									type="button"
 									className="btn btn-outline-secondary">
 									Lets check it out together!
-								</Link> */}
-								{/* <Link
-									to={props.buttonCard}
-									type="button"
-									className="btn btn-primary">
-									Learn more!
-								</Link> */}
+								</Link> Intenté instalar varias actualizacions de react (creo que era el error que me estaba dando al intentar utilizar el Link) y no pude, por eso utilicé el <a/> con rel="noopener noreferrer"*/}
 								<a
 									href={props.buttonCard}
 									className="btn btn-primary"
