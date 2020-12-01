@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Link from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export function Card(props) {
 	return (
@@ -27,9 +28,18 @@ export function Card(props) {
 									className="btn btn-outline-secondary">
 									Lets check it out together!
 								</Link> */}
-								{/* <Link to={props.buttonCard}>
-									<span>Lets check it out together!</span>
+								{/* <Link
+									to={props.buttonCard}
+									type="button"
+									className="btn btn-primary">
+									Learn more!
 								</Link> */}
+								<a
+									href={props.buttonCard}
+									className="btn btn-primary"
+									rel="noopener noreferrer">
+									Go somewhere
+								</a>
 							</div>
 						</div>
 					</div>
